@@ -1,0 +1,9 @@
+<launch>
+
+    <node name="talker" pkg="week1_hw" type="simple_publisher_node.py" output="screen">
+    </node>
+
+    <node name="test_pub_sub" pkg="week1_hw" type="data_processor.py" output="screen">
+    </node>
+
+</launch>
